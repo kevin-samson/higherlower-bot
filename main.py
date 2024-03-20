@@ -43,7 +43,7 @@ def get_value(name, filename="data.json"):
   return None
 
 chrome_options = Options()
-path = r"/home/kevin/Coding/highlow/adblock.crx"
+path = r"adblock.crx"
 chrome_options.add_extension(path)
 
 driver = webdriver.Chrome(options=chrome_options)
